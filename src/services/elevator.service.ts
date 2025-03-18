@@ -1,10 +1,8 @@
 import axios from "axios";
 import { Elevator } from "../models/elevator.ts";
 
-const API_URL = process.env.VITE_API_URL;
-
-console.log("API_URL:", process.env.VITE_API_URL);
-
+// const API_URL = process.env.VITE_API_URL; // TODO update environment variable
+const API_URL = "https://elevator-simulator-service-e77g.onrender.com/apis/elevators";
 
 /**
  * Fetch the state of a specific elevator.
