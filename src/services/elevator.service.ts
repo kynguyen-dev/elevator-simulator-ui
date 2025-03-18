@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Elevator } from "../models/elevator.ts";
 
-const API_URL = "http://localhost:8080/apis/elevators";
+const API_URL = process.env.API_URL;
 
 /**
  * Fetch the state of a specific elevator.
