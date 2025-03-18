@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Elevator } from "../models/elevator.ts";
 
-const API_URL = process.env.API_URL;
+const API_URL = process.env.REACT_APP_API_URL;
 
 /**
  * Fetch the state of a specific elevator.
